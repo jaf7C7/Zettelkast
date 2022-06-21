@@ -26,3 +26,5 @@ Links to subindices etc. found here
 * [221406140136(TODO Today)](zet:221406140136.md)
 * [221406140141(TODO Tomorrow)](zet:221406140141.md)
 * [221406170524(Learn With Leon)](zet:221406170524.md)
+* [221606114604()](zet:221606114604.md)
+* [](zet:222106174430)
