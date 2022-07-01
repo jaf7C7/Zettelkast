@@ -23,10 +23,11 @@ The zettel archive:
 
 The bibliography:
 
-* A list of each resource referenced in the Zettelkast, with links to each
-  note where a reference is made. This way, you can see what you have actually
-  read, as opposed to what you have only planned to read, as well as very
-  quickly review the knowledge you've gained from it.
+* A subdirectory of the Zettelkast, containing a single file for each
+  resource referenced in the Zettelkast, containing links to each note
+  where a reference is made. This way, you can see what you have actually
+  read, as opposed to what you have only planned to read, as well as
+  very quickly review the knowledge you've gained from it.
 
 ## Zettels must:
 
