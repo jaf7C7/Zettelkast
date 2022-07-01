@@ -1,0 +1,18 @@
+# Zettelkasten for technical knowledge
+
++Zettelkasten
+
+You *can* put course notes on technical subjects into your
+[zettelkast](zet:222206095636). If you simply use *tags* (of
+the form `+<tag>`) as a sort of pseudo directory structure, then
+searching for '+LearningHowToLearn' for example, will return all the
+[notes](zet:221705105252) for that course, (or rather active recall
+questions, and links to source material), without having the mental
+labour of deciding which directory to put the notes in.
+
+Using this method all notes, of any variety can be simply thrown
+onto the heap, so to speak, while remaining searchable, connected and
+rediscoverable.
+
+[1]: https://forum.zettelkasten.de/discussion/1114/zettelkasten-for-scientific-research
+
