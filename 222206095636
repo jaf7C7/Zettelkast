@@ -1,12 +1,14 @@
 # The Zettelkast
 
++Zettelkast +Documentation
+
 Distributed, atomic knowledge base with an emphasis on creating and
 exploring links between individual ideas. Originally developed for
 humanistic writing but also applicable and useful for
 [technical knowledge](zet:220107053350), or really any kind of notes.
 
-Based on the [original method][2] developed by Niklas Luhmann. Inspired
-by a more modern [interpretation][3].
+Based on the [original method][1] developed by Niklas Luhmann. Inspired
+by a more modern [interpretation][2].
 
 ## The Zettelkast consists of:
 
@@ -21,14 +23,6 @@ The zettel archive:
   a *single concept or idea*, along with inline *links to other notes*,
   and topic *tags* to expediate searching and rediscovery.
 
-The bibliography:
-
-* A subdirectory of the Zettelkast, containing a single file for each
-  resource referenced in the Zettelkast, containing links to each note
-  where a reference is made. This way, you can see what you have actually
-  read, as opposed to what you have only planned to read, as well as
-  very quickly review the knowledge you've gained from it.
-
 ## Zettels must:
 
 1. Represent a single idea or concept (*atomic*)
@@ -41,8 +35,11 @@ The bibliography:
 ## Anatomy of a zettel:
 
 ```markdown
-# [012345678901] An Example Zettel Title
-+specific +searchable +tags
+# An Example Zettel Title
+
++Specific +Searchable +Tags
+
+<!TODO: optional todo items here with @Tags and %Priority>
 
 The main body of the zettel can contain inline links to
 [other zettels](zet:012345678912) as well as reference links to
@@ -52,19 +49,56 @@ The main body of the zettel can contain inline links to
 [2]: https://example.com
 
 ```
+
+## Bibliographical zettels
+
+An internal bibliography is maintained in special *bib notes*. These are
+essentialy just ordinary zettels except they must be tagged with
+`+Bibliography` along with the resource title and any other relevant tags.
+
+When a zettel references an external resource (see above example), the
+link to the resource must be appended to the bib note for that resource,
+or a bib note must be created if one didn't already exist. This is a way
+of getting an overview of what information has been gained from a particular
+resource, as well as what resources have actually been read or watched, as
+opposed to just bookmarked for later.
+
+```markdown
+# Title Of The Book Or Domain
+
++Bibliography +TitleOfResource +SomeOtherTag
+
+A short description of the resource, along with any comments.
+
+* [Multiple references][1]
+* [To the same][2]
+* [Book or domain][3]
+* [Go in this file][4]
+
+[1]: https//SomeDomain.com/.../page1.html
+[2]: https//SomeDomain.com/.../page10.html
+[3]: https//SomeDomain.com/.../sillydog.jpg
+[4]: https//SomeDomain.com/.../foobar.zip
+
+## Referenced by:
+
+* [A Zettel which references this resource](zet:123456789123)
+* [Another Zet which references this resource](zet:98496178982)
+
+```
+
 ## Workflow
 
-1. Write a quick zettel to record an idea you've just had or something you've
-   just learned. Don't worry about making links at this point, just get the
-   idea in text.
+1. Write a quick zettel to record an idea you've just had or something
+   you've just learned. Don't worry about making links or adding a
+   bibliographical entry at this point, just get the idea in text.
 1. A link to the zettel will be appended to the INDEX file. Later on sort
-   through these zettels and make links between them.
+   through these zettels and make links between them, and append to or
+   create any bibligraphical entries for external resources.
+1. Course notes, active recall questions, exercises, code snippets,...
+   any kind of knowledge or note can (once [properly tagged](zet:220107083835))
+   be made into a zettel, as long as it adheres to
+   [the criteria](#zettels-must).
 
-## Relationship to [spaced repetition and active recall][1]
-
-Record active recall questions somewhere else and then refer to this
-Zettelkast when you need to look up the information you can't recall.
-
-[1]: https://www.coursera.org/learn/learning-how-to-learn/home/welcome
-[2]: http://luhmann.surge.sh/
-[3]: https://zettelkasten.de/introduction/
+[1]: http://luhmann.surge.sh/
+[2]: https://zettelkasten.de/introduction/

@@ -2,6 +2,7 @@
 
 <!TODO Keep adding to this documentation>\
 <!TODO Add `TODO` documentation, and make `todo` utility>\
+<!TODO Add tag index of all used tags and keep it updated (automate this)>\
 
 Information on how to use this repository:
 
@@ -9,5 +10,31 @@ Information on how to use this repository:
 * [How To Tag A Zettel](zet:220107083835)
 
 ----
+
+## Tag Index
+
+	+ArrayMethods
+	+Bibliography
+	+Book
+	+CourseIndex
+	+CourseNotes
+	+Documentation
+	+LearningHowToLearn
+	+LearnWithLeon
+	+ObjectOriented
+	+POSIX
+	+POSIXShell
+	+RegEx
+	+Searchable +Tags
+	+SelfStudy
+	+Shell
+	+Snippet
+	+SomeOtherTag
+	+Specific
+	+StackOverflow.com
+	+TitleOfResource
+	+WebResource
+	+Zettelkast
+	+Zettelkasten.de
 
 ## Inbox (latest unreviewed zettels)

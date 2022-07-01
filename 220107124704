@@ -1,0 +1,7 @@
+# POSIX Regular Expressions (ERE vs. BRE)
+
++POSIX +RegEx +Documentation
+
+See [the specification][1].
+
+[1]: https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap09.html#tag_09_04

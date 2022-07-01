@@ -1,5 +1,7 @@
 # How To Tag A Zettel
 
++Zettelkast +Documentation
+
 <!TODO keep adding to the Zettelkast tagging specification>
 
 Tags must be of the form `+FooBarBaz` and follow the conventions for tagging
@@ -9,19 +11,27 @@ Each note of a given type should contain the associated tags:
 
 ## Courses
 
-+CourseNotes  - Notes from a course
-+CourseIndex  - The index page for a course
-+<CourseName> - The name of the particular course
+	+CourseNotes  - Notes from a course
+	+CourseIndex  - The index page for a course
+	+\<CourseName> - The name of the particular course
 
 ## Bibliographical entries
 
-+Bibliography   - For a bibliographical note
-+WebResource    - To specify an online bibliographical note
-+Book           - To specify a literary bibliographical note
-+<ResourceName> - The name of the resource (book title or domain name)
+	+Bibliography   - For a bibliographical note
+	+WebResource    - To specify an online bibliographical note
+	+Book           - To specify a literary bibliographical note
+	+<ResourceName> - The name of the resource (book title or domain name)
 
 ## Code snippets
 
-+<Language>     - The name of the programming language
-+<Topic>        - The particular topic the snippet pertains to
+<This is very much a working theory - needs developing>
 
+	+<Language>     - The name of the programming language
+	+<Topic>        - The particular topic the snippet pertains to
+			  (e.g. +ObjectOriented, +ArrayMethods)
+
+## Examples:
+
+* [Posix Regular Expressions (ERE vs. BRE)](zet:220107124704)
+* [Stackoverflow.com](zet:220107125036)
+* [Disowning a child process in POSIX shell](zet:222406144815)
