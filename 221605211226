@@ -1,15 +1,24 @@
 # Study Material
 
-- [Winc](https://board.wincacademy.nl)
-- [Learn Javascript - MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
-- [Eloquent Javascript - Marijn Haverbeke](https://eloquentjavascript.net)
-- [Learning How To Learn - Coursera](https://www.coursera.org/learn/learning-how-to-learn/home/welcome) (LHTL)
-- [A Mind For Numbers - Barbara Oakley](file:/home/joss/Documents/oakley--a-mind-for-numbers.pdf) (AMFN)
-- [Learn With Leon (Youtube (#100Devs))](https://www.youtube.com/channel/UCGiRSHBdWuCgjgmPPz_13xw/playlists)
-- [Learn With Leon (Discord)](https://discord.com/channels/735923219315425401/738891289071714388)
++Course +SelfStudy
 
+!TODO: Add 'Current Courses' section to INDEX file
 
-## Learning How To Learn
+## Courses
+
+- [Winc][winc]
+- [Learn Javascript - MDN][mdn]
+- [Eloquent Javascript - Marijn Haverbeke][eloquentjs]
+- [Learning How To Learn - Coursera][lhtl](LHTL)
+- [A Mind For Numbers - Barbara Oakley][amfn](AMFN)
+- [Learn With Leon (Youtube (#100Devs))][leonyt]
+- [Learn With Leon (Discord)][leondc]
+
+## Roadmap
+
+Semi logical pathway through several different courses:
+
+### Learning How To Learn
 
 1. LHTL        - Week 1
 1. AMFN        - Ch.1-4
@@ -20,19 +29,19 @@
 1. LHTL        - Week 4
 1. AMFN        - Ch.12-END
 
-## Objects and Arrays
+### Objects and Arrays
 
 1. MDN         - Working With JSON Data
 1. MDN         - Object Building Practice
 1. MDN         - Assessment: Bouncing Balls
 
-## Advanced Javascript
+### Advanced Javascript
 
 1. Eloquent JS - Bugs and Errors
 1. Eloquent JS - Regular Expressions
 1. Eloquent JS - Modules
 
-## Asynchronous Javascript
+### Asynchronous Javascript
 
 1. Winc        - How Does The Internet Work?
 1. MDN         - Introducing Asynchronous Javascript
@@ -46,7 +55,7 @@
 1. MDN         - Introducing Workers
 1. MDN         - Assessment: Sequencing Animations
 
-## APIs
+### APIs
 
 1. MDN         - Introduction To Web APIs
 1. MDN         - Manipulating Documents
@@ -60,19 +69,19 @@
 1. MDN         - Client-Side Storage
 1. Eloquent JS - Project: A Pixel Art Editor
 
-## Testing & Methodology
+### Testing & Methodology
 
 1. Winc        - Scrum
 1. Winc        - Unit Testing: Basics
 1. Winc        - Test-Driven Development
 1. Winc        - Unit Testing: Advanced
 
-## Node.js
+### Node.js
 
 1. Eloquent JS - Node.js
 1. Eloquent JS - Project: Skill-Sharing Website
 
-## React
+### React
 
 1. Winc        - React Introduction
 1. Winc        - React Advanced
@@ -81,22 +90,28 @@
 1. Winc        - Debugging
 1. Winc        - Domain Modelling
 
-## "End" of Front-End
+### "End" of Front-End
 
 1. Winc        - Complete and modified/incomplete previous modules (CSS etc.)
 1. Winc        - Assignment: Student Dashboard
 
-## Linux
+### Linux
 
-* [Debian installation guide](https://www.debian.org/releases/stable/amd64/)
-* [Linux From Scratch](https://www.linuxfromscratch.org/lfs/read.html)
-* [Debian Reference](https://www.debian.org/doc/manuals/debian-reference/index.en.html)
-* [Debian Administrator's Handbook](https://www.linuxfromscratch.org/lfs/read.html)
-* [Unix and Linux System Administration Handbook](file://localhost/home/joss/Documents/sysadmin-handbook.pdf)
+* [Debian installation guide][debinst]
+* [Linux From Scratch][lfs]
+* [Debian Reference][debref]:
+* [Debian Administrator's Handbook][debadmin]
+* [Unix and Linux System Administration Handbook][nemeth]
 
-----
-
-See also:
-
-* [221505222224(Learning Strategies)](zet:221505222224.md)
-* [221705105252(Learning How To Learn)](zet:221705105252.md)
+[winc]: https://board.wincacademy.nl
+[mdn]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+[eloquentjs]: https://eloquentjavascript.net
+[lhtl]: https://www.coursera.org/learn/learning-how-to-learn/home/welcome 
+[amfn]: file:/home/joss/Documents/oakley--a-mind-for-numbers.pdf
+[leonyt]: https://www.youtube.com/channel/UCGiRSHBdWuCgjgmPPz_13xw/playlists
+[leondc]: https://discord.com/channels/735923219315425401/738891289071714388
+[debinst]: https://www.debian.org/releases/stable/amd64/
+[lfs]: https://www.linuxfromscratch.org/lfs/read.html
+[debref]: https://www.debian.org/doc/manuals/debian-reference/index.en.html
+[debadmin]: https://www.linuxfromscratch.org/lfs/read.html
+[nemeth]: file://localhost/home/joss/Documents/sysadmin-handbook.pdf

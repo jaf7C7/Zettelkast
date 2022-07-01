@@ -1,33 +1,41 @@
 # The Zettelkast
 
-Distributed, atomic knowledge base with an emphasis on creating and exploring
-links between individual ideas. The focus is on exploring what you once knew
-but may have forgotten rather than encouraging [active recall][1].
+Distributed, atomic knowledge base with an emphasis on creating and
+exploring links between individual ideas. Originally developed for
+humanistic writing but also applicable and useful for
+[technical knowledge](zet:220107053350), or really any kind of notes.
 
-Based on the [original method][2] developed by Niklas Luhmann. Inspired by
-a more modern [interpretation][3].
+Based on the [original method][2] developed by Niklas Luhmann. Inspired
+by a more modern [interpretation][3].
 
 ## The Zettelkast consists of:
 
-INDEX.md:
+The index:
 
 * The main entry page, containing overview and inbox of unreviewed
   zettels.
 
 The zettel archive:
 
-* Individual notes (e.g. 012345678912.md)
-* Subindices (structure notes / hubs) which are lists of links to
-  zettels with a common theme. Can also link to other subindices.
-  All subindices are in turn listed in the main INDEX.md file.
+* An unsorted directory of individual notes (e.g. 012345678912) containing
+  a *single concept or idea*, along with inline *links to other notes*,
+  and topic *tags* to expediate searching and rediscovery.
+
+The bibliography:
+
+* A list of each resource referenced in the Zettelkast, with links to each
+  note where a reference is made. This way, you can see what you have actually
+  read, as opposed to what you have only planned to read, as well as very
+  quickly review the knowledge you've gained from it.
 
 ## Zettels must:
 
-1. Represent a single idea or concept (atomic)
+1. Represent a single idea or concept (*atomic*)
 1. Record an original idea or interpretation of something actually
    understood, as opposed to merely recording arbitrary information
-   (meaningful)
-1. Always link to at least one other zettel (connected)
+   (*meaningful*)
+1. Always *link* to at least one other zettel (*connected*)
+1. Always contain at least one *tag* (*searchable*)
 
 ## Anatomy of a zettel:
 
@@ -48,8 +56,8 @@ The main body of the zettel can contain inline links to
 1. Write a quick zettel to record an idea you've just had or something you've
    just learned. Don't worry about making links at this point, just get the
    idea in text.
-1. A link to the zettel will be appended to this file. Later on sort through
-   these zettels and make links (to subindices and other zettels)
+1. A link to the zettel will be appended to the INDEX file. Later on sort
+   through these zettels and make links between them.
 
 ## Relationship to [spaced repetition and active recall][1]
 

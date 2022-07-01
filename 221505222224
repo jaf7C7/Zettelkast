@@ -1,9 +1,8 @@
 # Learning Strategies
 
-## Source material
++LearningHowToLearn
 
-[Learning How To Learn - Coursera](https://www.coursera.org/learn/learning-how-to-learn/home/welcome)\
-[Evidence-Based Revision Tips - Ali Abdaal](https://www.youtube.com/watch?v=ukLnPbIffxE)
+Ideas from [Ali Abdaal](ali) and [Barbara Oakley](zet:221705105252)
 
 ## Effective strategies:
 
@@ -25,10 +24,9 @@
 Split each day into several chunks on different topics rather than
 grinding the whole day on one topic.
 
-When reading/learning **write questions not notes** (See [Cornell note-taking
-Method](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)),
-so on reviewing them you have to actively recall, and practice finding
-answers quickly in the available resources.
+When reading/learning **write questions not notes** (See [Cornell
+note-taking Method][cornell]), so on reviewing them you have to actively recall,
+and practice finding answers quickly in the available resources.
 
 After having understood something, practice explaining it as if to someone
 else at the end of the day/session.
@@ -37,17 +35,16 @@ Revisit old topics regularly. This could mean answering questions that you
 wrote, doing exercises, or projects which require revisiting that material.
 
 Revisit after 1 day, then after 2 days, then 4 days etc. to effectively
-flatten the forgetting curve. [Anki app](https://www.ankiapp.com/) will
+flatten the forgetting curve. [Anki app][anki] will
 take care of this for you.
 
-## Questions:
-
-* Should different techniques be used when studying for comprehension
-  vs. studying for recall/revision? Note-taking can be helpful for
-  comprehension in the first instance.
+Q: Should different techniques be used when studying for comprehension
+   vs. studying for recall/revision? Note-taking can be helpful for
+   comprehension in the first instance.
+A: Absolutely! Summarising knowledge is better for understanding, but then
+   active recall questions are better for retention.
 
 ----
-
-## See also:
-* [221705105252(Course: Learning How To Learn)](zet:221705105252.md)
-
+[cornell]: https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/
+[anki]: https://www.ankiapp.com/
+[ali]: https://www.youtube.com/watch?v=ukLnPbIffxE

@@ -1,6 +1,10 @@
 # Create subprocess which is not a child of the parent (disown)
 
-Summary:
++Shell +POSIXShell
+
+## Summary:
+
+Double-fork the process (background a process already in a subshell):
 
 ```shell
 ( <cmd> & )
@@ -16,44 +20,5 @@ setsid <cmd>
 nohup script -q -c '<cmd>' /dev/null &
 
 ```
-----
 
-> The typical way of doing this in Unix is to double fork. In bash, you
-> can do this with
-> 
-> ( sleep 30 & )
-> 
-> (..) creates a child process, and & creates a grandchild process. When
-> the child process dies, the grandchild process is inherited by init.
-
-> If this doesn't work, then your application is not waiting for child
-> processes.
-> 
-> Other things it may be waiting for include the session and open lock
-> files:
-> 
-> To create a new session, Linux has a setsid. On OS X, you might be able
-> to do it through script, which incidentally also creates a new session:
-> 
-> # Linux:
-> setsid sleep 30
-> 
-> # OS X:
-> nohup script -q -c 'sleep 30' /dev/null &
-> 
-> To find a list of inherited file descriptors, you can use lsof -p yourpid,
-> which will output something like:
-> 
-> sleep   22479 user    0u   CHR 136,32      0t0       35 /dev/pts/32
-> sleep   22479 user    1u   CHR 136,32      0t0       35 /dev/pts/32
-> sleep   22479 user    2u   CHR 136,32      0t0       35 /dev/pts/32
-> sleep   22479 user    5w   REG  252,0        0  1048806 /tmp/lockfile
-> 
-> In this case, in addition to the standard FDs 0, 1 and 2, you also have
-> a fd 5 open with a lock file that the parent can be waiting for.
-> 
-> To close fd 5, you can use exec 5>&-. If you think the lock file might
-> be stdin /stdout/stderr themselves, you can use nohup to redirect them
-> to something else.
-
-Source: https://stackoverflow.com/a/20338327
+[Source](https://stackoverflow.com/a/20338327)
