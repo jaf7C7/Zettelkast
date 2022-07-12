@@ -2,7 +2,7 @@
 
 +Zettelkast +Documentation
 
-<!TODO keep adding to the Zettelkast tagging specification>
+<!-- TODO keep adding to the Zettelkast tagging specification -->
 
 Tags must be of the form `+FooBarBaz` and follow the conventions for tagging
 different types of notes.

@@ -35,18 +35,18 @@ The zettel archive:
 ## Anatomy of a zettel:
 
 ```markdown
-# An Example Zettel Title
+	# An Example Zettel Title
 
-+Specific +Searchable +Tags
+	+Specific +Searchable +Tags
 
-<!TODO: optional todo items here with @Tags and %Priority>
+	<!-- TODO: optional todo items here with @Tags and %Priority -->
 
-The main body of the zettel can contain inline links to
-[other zettels](zet:012345678912) as well as reference links to
-[external][1] [resources][2].
+	The main body of the zettel can contain inline links to
+	[other zettels](zet:012345678912) as well as reference links to
+	[external][1] [resources][2].
 
-[1]: file:/path/to/file.pdf
-[2]: https://example.com
+	[1]: file:/path/to/file.pdf
+	[2]: https://example.com
 
 ```
 
@@ -64,26 +64,26 @@ resource, as well as what resources have actually been read or watched, as
 opposed to just bookmarked for later.
 
 ```markdown
-# Title Of The Book Or Domain
+	# Title Of The Book Or Domain
 
-+Bibliography +TitleOfResource +SomeOtherTag
+	+Bibliography +TitleOfResource +SomeOtherTag
 
-A short description of the resource, along with any comments.
+	A short description of the resource, along with any comments.
 
-* [Multiple references][1]
-* [To the same][2]
-* [Book or domain][3]
-* [Go in this file][4]
+	* [Multiple references][1]
+	* [To the same][2]
+	* [Book or domain][3]
+	* [Go in this file][4]
 
-[1]: https//SomeDomain.com/.../page1.html
-[2]: https//SomeDomain.com/.../page10.html
-[3]: https//SomeDomain.com/.../sillydog.jpg
-[4]: https//SomeDomain.com/.../foobar.zip
+	[1]: https//SomeDomain.com/.../page1.html
+	[2]: https//SomeDomain.com/.../page10.html
+	[3]: https//SomeDomain.com/.../sillydog.jpg
+	[4]: https//SomeDomain.com/.../foobar.zip
 
-## Referenced by:
+	## Referenced by:
 
-* [A Zettel which references this resource](zet:123456789123)
-* [Another Zet which references this resource](zet:98496178982)
+	* [A Zettel which references this resource](zet:123456789123)
+	* [Another Zet which references this resource](zet:98496178982)
 
 ```
 
