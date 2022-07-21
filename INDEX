@@ -2,201 +2,41 @@
 
 <!-- TODO Keep adding to this documentation -->
 <!-- TODO Add `TODO` documentation, and make `todo` utility -->
-<!-- TODO Add tag index of all used tags and keep it updated (automate this) -->
 <!-- TODO Change all IDs and `zet` to `2022` instead of `22` -->
 
 Information on how to use this repository:
 
-* [But how do I even Zettel?](zet:222206095636)
-* [How To Tag A Zettel](zet:220107083835)
+* [But how do I even Zettel?](zet:20220622095636)
+* [How To Tag A Zettel](zet:20220701083835)
 
 ----
 
 ## Tag Index
 
 	+Bibliography
+	+Book
 	+Bookmarks
-	+ClassicCocktails
-	+Cocktails
+	+Careers
 	+CourseIndex
 	+CourseNotes
 	+Documentation
 	+LearningHowToLearn
 	+LearnWithLeon
-	+NonAlcoholicCocktails
 	+POSIX
 	+POSIXShell
-	+Recipe
 	+RegEx
+	+Searchable
 	+SelfStudy
 	+Shell
 	+Snippet
-	+SomeOtherTags
-	+SomeTags
+	+SomeOtherTag
+	+Specific
 	+StackOverflow.com
-	+TPC
+	+Tags
+	+TitleOfResource
 	+WebResource
 	+Zettelkast
 	+Zettelkasten.de
 
 ## Inbox (latest unreviewed zettels)
 
-* [Very Peri](zet:220507110452)
-* [Taco Tuesdays](zet:220507110505)
-* [Joe Lycheeni](zet:220507110514)
-* [The Gold Bar](zet:220507110525)
-* [The Vice City](zet:220507110555)
-* [Brummie Rummy Old Fashioned](zet:220507110603)
-* [Green Light](zet:220507110607)
-* [Red Light](zet:220507110614)
-* [Great Gats-Bee](zet:220507110619)
-* [Unbongo Juice](zet:220507110626)
-* [Haiti Fizz](zet:220507110629)
-* [The Gambol](zet:220507110630)
-* [Mango Unchained](zet:220507110631)
-* [Fever 105](zet:220507110633)
-* [Italian Spritz (Non-alcoholic)](zet:220507110638)
-* [Blueberry and Basil French Martini (Non-alcoholic)](zet:220507110641)
-* [Orchard Fizz (Non-alcoholic)](zet:220507110644)
-* [V for Vega (Non-alcoholic)](zet:220507110647)
-* [Tea And Elderflower Fizz (Non-alcoholic)](zet:220507110650)
-* [Pornstar Martini](zet:220507110708)
-* [Espresso Martini](zet:220507110710)
-* [French Martini](zet:220507110712)
-* [London Calling](zet:220507110713)
-* [Trinidad Sour](zet:220507110718)
-* [Negroni](zet:220507110720)
-* [Old Fashioned](zet:220507110723)
-* [The Pineapple Club Cocktail Specification Spring 2022](zet:220507110939)
-* [Bookmarks](zet:221207121640)
-* ["A Byte Of Python"](zet:221207131428)
-* ["Advanced Programming In The UNIX Environment"](zet:221207131447)
-* ["An Introduction to Display Editing with Vi"](zet:221207131452)
-* [ANSI Escape Codes](zet:221207131456)
-* [ASCII Keycodes](zet:221207131459)
-* [Basic Markdown Specification](zet:221207131510)
-* ["Beginning Perl"](zet:221207131513)
-* [Bitwarden CLI (bw)](zet:221207131517)
-* [Browser-sync documentation](zet:221207131521)
-* [Build Your Own X - Software Projects](zet:221207131525)
-* [Caniuse browser compatibility tool](zet:221207131529)
-* [Chrome DevTools - Chrome Developers](zet:221207131531)
-* [CS50 Harvard Introduction To Computer Science](zet:221207131534)
-* [CSS Snapshot 2021](zet:221207131542)
-* [Debian GNU/Linux Installation Guide (amd64)](zet:221207131544)
-* ["Debian Reference"](zet:221207131547)
-* [Difference between Vim and Vi - Vim help](zet:221207131550)
-* [Documentation for VSCode](zet:221207131552)
-* [DuckDuckGo search syntax](zet:221207131554)
-* [DuckDuckGo URL Parameters](zet:221207131556)
-* [Dylan Araps' POSIX shell tips](zet:221207131559)
-* [ECMA Specification](zet:221207131601)
-* ["Eloquent Javascript"](zet:221207131602)
-* [Emoji Cheat Sheet](zet:221207131604)
-* [ESLint CLI Documentation](zet:221207131605)
-* [ESLint documentation](zet:221207131607)
-* ["Everything Curl"](zet:221207131608)
-* [The TTY Explained](zet:221207131610)
-* [Ex Reference Manual](zet:221207131611)
-* [File Descriptors / Redirection Tutorial](zet:221207131612)
-* [Filesystem Hierarchy Standard](zet:221207131614)
-* [Floating point mathematics in programming](zet:221207131615)
-* [FullBashGuide - Greg"s Wiki](zet:221207131616)
-* [GitHub Documentation](zet:221207131618)
-* [Github CLI (gh) documentation](zet:221207131619)
-* [Git user manual](zet:221207131621)
-* [GNU bash documentation](zet:221207131622)
-* [GNU coreutils documentation](zet:221207131624)
-* [GNU ed Documentation](zet:221207131625)
-* [GNU readline Documentation](zet:221207131627)
-* [GNU screen Documentation](zet:221207131628)
-* [GNU sed Documentation](zet:221207131629)
-* [Google Crawlers Documentation](zet:221207131631)
-* [Google Style Guides](zet:221207131633)
-* [Hack The Box (Learn to hack)](zet:221207131634)
-* [How I Use Zettelkasten As A Developer](zet:221207131636)
-* [How To Become A Hacker](zet:221207131637)
-* [How to Read the ECMAScript Specification](zet:221207131639)
-* [How to Read W3C Specs - (CSS)](zet:221207131640)
-* [HTML URL Encoding Reference](zet:221207131642)
-* [HTTP Status Codes](zet:221207131643)
-* [Introduction To Character Encoding (with resource links)](zet:221207131644)
-* [JavaScript Tutorials - Peter-Paul Koch](zet:221207131646)
-* [jq Documentation](zet:221207131647)
-* [JSON reference](zet:221207131649)
-* [LaTeX Specification](zet:221207131650)
-* ["Learn Vimscript The Hard Way"](zet:221207131652)
-* [Library Genesis (Book torrents)](zet:221207131653)
-* ["Linux From Scratch"](zet:221207131655)
-* [Mime Apps Specification](zet:221207131656)
-* [Modern javascript tutorials](zet:221207131657)
-* [Mozilla javascript console error reference](zet:221207131659)
-* [Mozilla javascript reference](zet:221207131700)
-* [Mozilla javascript tutorials](zet:221207131702)
-* [Networking Tutorial For Developers (Beginner)](zet:221207131703)
-* [NPM documentation](zet:221207131705)
-* [Over The Wire](zet:221207131706)
-* [OWASP](zet:221207131707)
-* [Pandoc documentation](zet:221207131709)
-* [Pandoc's Markdown](zet:221207131710)
-* [Par Documentation](zet:221207131712)
-* [Perl Documentation](zet:221207131713)
-* [Pico CTF](zet:221207131715)
-* [POSIX Specification 2018](zet:221207131716)
-* [POSIX XBD Utility Syntax Guidelines](zet:221207131718)
-* [Prettier documentation](zet:221207131720)
-* ["Progit"](zet:221207131721)
-* [Project Euler](zet:221207131722)
-* [JSON Specification (RFC 8259)](zet:221207131724)
-* [rwxrob Markdown Tutorial](zet:221207131725)
-* [rwxrob Resources For Learning `Go`](zet:221207131726)
-* [Standards - W3C](zet:221207131728)
-* ["Tao Of Tmux"](zet:221207131729)
-* [Text-Terminal How-To](zet:221207131730)
-* [The Art of Unix Usability](zet:221207131732)
-* [The Mutt E-Mail Client Manual](zet:221207131733)
-* [The Termcap Library - Manual](zet:221207131734)
-* [TIOBE Language Index](zet:221207131736)
-* [Tmux Wiki](zet:221207131737)
-* [Try Hack Me](zet:221207131739)
-* [Understanding the CSS Specifications](zet:221207131740)
-* [Understanding the ECMAScript spec](zet:221207131741)
-* [Unicode character tables](zet:221207131743)
-* [Unicode Emoji Table](zet:221207131744)
-* [Unicode FAQ](zet:221207131746)
-* [Unicode HTML Entities](zet:221207131747)
-* [Universal Ctags 0.3.0 documentation](zet:221207131748)
-* [Unix Sed Tutorial](zet:221207131750)
-* [URI Format Specification](zet:221207131751)
-* [URI Syntax (RFC Standard)](zet:221207131752)
-* [URxvt documentation](zet:221207131754)
-* [Vim online help](zet:221207131755)
-* [VirtualBox CLI Documentation](zet:221207131756)
-* [VirtualBox User Manual](zet:221207131758)
-* [VSCode keyboard shortcuts](zet:221207131759)
-* [w3c Standards](zet:221207131801)
-* [w3m Documentation](zet:221207131802)
-* [WeeChat Quick Start Guide](zet:221207131803)
-* [What Every Javascript Developer Should Know About Unicode](zet:221207131805)
-* [Whatwg HTML specification](zet:221207131806)
-* [Write ISO image to USB](zet:221207131808)
-* [XDG Base Directory Specification](zet:221207131809)
-* [XDG specification](zet:221207131810)
-* [Xterm Control Sequences](zet:221207131812)
-* [XTerm documentation](zet:221207131813)
-* [YAML Specification 1.2.2](zet:221207131814)
-* [Zettelkasten Method For Developers/Engineers](zet:221207131816)
-* [example title](zet:221207230249)
-* [example title](zet:221207230355)
-* [Career Plan](zet:221407120854)
-* [Skills Required For DevOps engineering](zet:221407114146)
-* [Software Developer Career Path](zet:221407123920)
-* [Infrastructure Engineer Career Path](zet:221407124045)
-* [Cyber-Security Career Path](zet:221407124632)
-* [Test](zet:221507103231)
-* [Free CCNA Resources](zet:221507110406)
-* [Job Sites](zet:221507114211)
-* [DevOps/Site Reliability Engineer Job Description](zet:221507140626)
-* [Career Goals](zet:221507130954)
-* [Foo](zet:221507141026)
-* [System Administration](zet:221507144430)

@@ -6,7 +6,7 @@ Take all answers with a pinch of salt!
 
 * [How Can I Launch A Child Process That Is NOT A Child Of The Original
   Process?][1]
-	* [Disowning a child process in POSIX shell](zet:222406144815)
+	* [Disowning a child process in POSIX shell](zet:20220624144815)
 
 [1]: https://stackoverflow.com/a/20338327
 
