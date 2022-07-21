@@ -1,6 +1,6 @@
 # Disowning a child process in POSIX shell
 
-+Shell +POSIXShell +Snippet
+%Shell %POSIXShell %Snippet
 
 How to create a child process which will not die when the parent process
 terminates.

@@ -1,6 +1,6 @@
 # POSIX Regular Expressions (ERE vs. BRE)
 
-+POSIX +RegEx +Documentation
+%POSIX %RegEx %Documentation
 
 See [the specification][1].
 
